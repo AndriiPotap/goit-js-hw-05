@@ -1,9 +1,9 @@
 class StringBuilder {
-    constructor(val) {
-      this.value = val;
+    constructor(_value) {
+      this.value = _value;
     }
   
-    getValue() {
+    getString() {
       return this.value;
     }
   

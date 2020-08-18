@@ -9,7 +9,7 @@ class Car {
   
     static getSpecs(car) {
       return console.log(
-        ` maxSpeed:${car.maxSpeed},speed:${car.speed} ${car.isOn}, distance:${car.distance} price:${car.price}`,
+        `maxSpeed:${car.maxSpeed},speed:${car.speed} ${car.isOn}, distance:${car.distance} price:${car.price}`,
       );
     }
   
@@ -19,7 +19,6 @@ class Car {
   
     set price(price) {
       this.$price = price;
-      return this.price;
     }
   
     turnOn() {

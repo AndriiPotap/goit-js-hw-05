@@ -18,12 +18,12 @@ class Storage {
     }
   }
   
-  const storage = new Storage(
+  const storage = new Storage([
     'Нанитоиды',
     'Пролонгер',
     'Железные жупи',
     'Антигравитатор',
-  );
+  ]);
 
   console.table(storage); // [ "Нанитоиды", "Пролонгер", "Железные жупи", "Антигравитатор" ]
   
