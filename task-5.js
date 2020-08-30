@@ -39,10 +39,10 @@ class Car {
     }
   
     decelerate(value) {
-      if (value >= 0) {
-        this.speed -= value;
+      if (this.speed - value >= 0) {
+      this.speed -= value;
       }
-    }
+      }
   
     drive(hours) {
       if (this.turnOn) {
